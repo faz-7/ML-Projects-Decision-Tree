@@ -5,8 +5,6 @@ This repository implements a classification model to predict flower species usin
 - [Introduction](#introduction)
 - [Data Description](#data-description)
 - [Techniques Used](#techniques-used)
-- [Implementation](#implementation)
-- [Model Evaluation](#model-evaluation)
 - [Visualization](#visualization)
 - [Conclusion](#conclusion)
 
@@ -19,18 +17,10 @@ The dataset consists of several features representing different attributes of fl
 ## Techniques Used
 - **Decision Tree Classifier**: A tree-based model used to classify data based on feature values.
 
-## Model Evaluation
-After training the model, you can evaluate its performance using accuracy and confusion matrix metrics. You can calculate accuracy as follows:
-
-```python
-accuracy = accuracy_score(y_val, dt_predictions)
-print(f"Accuracy: {accuracy:.2f}")
-```
-
 ## Visualization
 The decision tree is visualized to understand how the model makes decisions based on the input features.
 
-![Decision Tree](images/decision_tree.png)
+![Decision Tree](images/result.png)
 
 ## Conclusion
 The Decision Tree Classifier effectively classifies flower species based on their features. Further improvements can be made by tuning hyperparameters or trying other classification algorithms.
